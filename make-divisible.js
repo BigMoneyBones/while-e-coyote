@@ -10,6 +10,10 @@ let y = (Number(prompt("Enter second number: ")));
 //As long as 'x / y' does not equal a whole number, the loop will repeat
 while (x/y !== Math.round(x/y)) {
 
+  //***   
+    //while (x % y !== 0) ***Also usable solution***
+  //***
+  
 //Loop will continue to add 1 to 'x' with each pass until it can be divided by 'y' with no remainder.    
     x = x + 1;
 
